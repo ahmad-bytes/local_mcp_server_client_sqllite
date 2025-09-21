@@ -1,0 +1,11 @@
+name: llm_dev
+channels:
+  - defaults
+dependencies:
+  - python=3.13.7
+  - pip
+  - pip:
+      - llama-index
+      - llama-index-tools
+      - llama-index-tools-mcp
+      - mcp

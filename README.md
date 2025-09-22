@@ -20,15 +20,10 @@ docker exec -it ollama ollama run codellama:7b    # For coding
 docker exec -it ollama ollama run vicuna:13b      # Chat optimized
 docker exec -it ollama ollama run orca-mini:3b   # Very lightweight
 
+List Available Models: docker exec -it ollama ollama list
 
-List Available Models:
-bashdocker exec -it ollama ollama list
+Pull a Model Without Running: docker exec -it ollama ollama pull llama3
 
-Pull a Model Without Running:
-bashdocker exec -it ollama ollama pull llama3
+Remove a Model:docker exec -it ollama ollama rm llama3
 
-Remove a Model:
-bashdocker exec -it ollama ollama rm llama3
-
-Check Model Information:
-bashdocker exec -it ollama ollama show llama3
+Check Model Information: docker exec -it ollama ollama show llama3

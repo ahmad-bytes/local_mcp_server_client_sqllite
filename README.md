@@ -17,6 +17,8 @@ docker exec -it ollama ollama run mistral:7b
 docker exec -it ollama ollama run llama3:8b
 docker exec -it ollama ollama run phi3:mini
 docker exec -it ollama ollama run qwen2:7b
+docker exec -it ollama ollama run gemma3:270m
+
 
 # Specialized models
 #

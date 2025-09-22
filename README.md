@@ -14,9 +14,10 @@ docker pull ollama/ollama
 docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
 ```
 
-### 3. Run Your First Model
+### 3. Run Your Model
 ```bash
 docker exec -it ollama ollama run llama3.2:1b
+docker exec -it ollama ollama run gemma3:270m
 ```
 
 ## Available Models
